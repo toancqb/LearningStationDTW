@@ -1,0 +1,6 @@
+
+data;
+
+set PROD := maroilles lait beurre carottes navets;
+
+param: stock_samedi 

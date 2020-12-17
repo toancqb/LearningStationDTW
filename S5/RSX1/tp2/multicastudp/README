@@ -1,0 +1,32 @@
+Q1.  Quelles sont les étapes pour émettre et recevoir un paquet UDP multicast sur le réseau local?
+
+*) Pour émettre un paquet UDP:
+- Prendre InetAddress et port de destination
+- Preparer le paquet
+- Creer un socket MulticastSocket
+- Envoyer le paquet a destination
+
+*) Pour recevoir un paquet
+- Creer un socket MulticastSocket
+- Bind le socket a un InetAddress et port
+- Preparer un paquet pour recevoir le buffer, il faut attendre jusqu'a recevoir le paquet de emettre
+
+
+Q2.  Quelles sont les exceptions à traiter pour chaque étape du programme d'émission et de réception?
+
+*) Pour émettre un paquet UDP:
+- Prendre InetAddress et port de destination
+-- UnknownHostException
+- Preparer le paquet
+- Creer un socket MulticastSocket
+-- IOException
+- Envoyer le paquet a destination
+-- IOException
+
+*) Pour recevoir un paquet
+- Creer un socket MulticastSocket
+-- IOException
+- Rejoindre le socket a InetAddress et port
+-- UnknownHostException
+- Preparer un paquet pour recevoir le buffer, il faut attendre jusqu'a recevoir le paquet de emettre
+-- IOException
