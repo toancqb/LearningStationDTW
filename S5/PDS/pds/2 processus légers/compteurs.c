@@ -1,3 +1,5 @@
+//compteurs.c
+
 #include <stdio.h>
 #include <pthread.h>
 #include <assert.h>
@@ -41,3 +43,6 @@ int main() {
 
     return 0;
 }
+
+// Resultat:
+// 135125747 = 100000000 + 100000000 = 200000000

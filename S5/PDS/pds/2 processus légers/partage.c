@@ -1,3 +1,5 @@
+//partage.c
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -30,3 +32,12 @@ int main() {
 
     return 0;
 }
+
+// Resultat
+/*
+Début du main, vg = 0
+Début du thread, vg = 1
+Milieu du main, vg = 2
+Fin du thread, vg = 2
+Fin du main, vg = 2
+*/

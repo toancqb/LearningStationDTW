@@ -1,3 +1,5 @@
+//adaptation-thread.c
+
 #include <unistd.h>
 #include <stdio.h>
 #include <pthread.h>
@@ -49,3 +51,6 @@ int main() {
 
     return 0;
 }
+
+// Resultat
+// |..||.|.|.|.|.|.|.|.|.|.|.|..|.||..|

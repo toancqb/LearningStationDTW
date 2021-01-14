@@ -1,3 +1,5 @@
+//interblocage.c
+
 #include <semaphore.h>
 #include <stdio.h>
 #include <pthread.h>
@@ -52,3 +54,7 @@ int main() {
 
     return 0;
 }
+
+// Resultat
+// main: J’ai pris sem2
+// thrd: J’ai pris sem1

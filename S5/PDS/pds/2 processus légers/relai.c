@@ -1,3 +1,5 @@
+//relai.c
+
 #include <stdio.h>
 #include <assert.h>
 #include <semaphore.h>
@@ -35,3 +37,7 @@ int main() {
 
     return 0;
 }
+
+// Resultat
+// J’attends le résultat
+// Résultat trouvé : 123

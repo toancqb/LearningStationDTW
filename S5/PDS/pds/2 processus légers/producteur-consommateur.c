@@ -1,3 +1,5 @@
+//producteur-consommateur.c
+
 #include <semaphore.h>
 #include <assert.h>
 #include <unistd.h>
@@ -67,3 +69,25 @@ int main() {
 
     return 0;
 }
+
+// Resultat
+/*
+P: Donnée 5625
+P: Donnée 5626
+P: Donnée 5627
+P: Donnée 5628
+P: Donnée 5629
+P: Donnée 5630
+C: Donnée 5621
+C: Donnée 5622
+C: Donnée 5623
+C: Donnée 5624
+C: Donnée 5625
+C: Donnée 5626
+C: Donnée 5627
+C: Donnée 5628
+C: Donnée 5629
+C: Donnée 5630
+P: Donnée 5631
+P: Donnée 5632
+*/

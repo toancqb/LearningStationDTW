@@ -1,0 +1,2 @@
+egrep '\(*\)' Cyrano.txt
+egrep '\<[a-zA-Z]{5}\>' Cyrano.txt

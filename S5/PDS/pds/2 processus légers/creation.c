@@ -1,3 +1,5 @@
+//creation.c
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
@@ -32,3 +34,27 @@ int main() {
 
     return 45;
 }
+
+// Resultat
+/*
+ Hello world from main (0)
+Hello world from main (1)
+Hello world from main (2)
+Hello world from main (3)
+Hello world from main (4)
+Hello world from main (5)
+Hello world from main (6)
+Hello world from main (7)
+Hello world from main (8)
+Hello world from main (9)
+Hello world from thread (0)
+Hello world from thread (1)
+Hello world from thread (2)
+Hello world from thread (3)
+Hello world from thread (4)
+Hello world from thread (5)
+Hello world from thread (6)
+Hello world from thread (7)
+Hello world from thread (8)
+Hello world from thread (9)
+*/
