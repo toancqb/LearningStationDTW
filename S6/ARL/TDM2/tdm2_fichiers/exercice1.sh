@@ -12,7 +12,7 @@ $egrep_cmd $options 'nez' $fichier
 
 #q2
 echo "** Q2"
-$egrep_cmd $options '\(*\)' $fichier
+$egrep_cmd $options '\(.*\)' $fichier
 
 #q3
 echo "** Q3"
